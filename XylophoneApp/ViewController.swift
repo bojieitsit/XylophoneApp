@@ -18,10 +18,17 @@ class ViewController: UIViewController {
         
         let pressedKey = sender.titleLabel?.text ?? "C"
         
+        sender.alpha = 0.5
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            sender.alpha = 1
+        }
+        
         func playSound() {
             let url = Bundle.main.url(forResource: pressedKey, withExtension: "wav")
             player = try! AVAudioPlayer(contentsOf: url!)
             player.play()
+            
         }
         playSound()
     }

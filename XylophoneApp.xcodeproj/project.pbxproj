@@ -14,6 +14,13 @@
 		691B80E628804EC200D6EB8C /* XylophoneApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 691B80E428804EC200D6EB8C /* XylophoneApp.xcdatamodeld */; };
 		691B80E828804EC400D6EB8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 691B80E728804EC400D6EB8C /* Assets.xcassets */; };
 		691B80EB28804EC400D6EB8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691B80E928804EC400D6EB8C /* LaunchScreen.storyboard */; };
+		691B80FD28805B2700D6EB8C /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 691B80F628805B2700D6EB8C /* E.wav */; };
+		691B80FE28805B2700D6EB8C /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 691B80F728805B2700D6EB8C /* B.wav */; };
+		691B80FF28805B2700D6EB8C /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 691B80F828805B2700D6EB8C /* G.wav */; };
+		691B810028805B2700D6EB8C /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 691B80F928805B2700D6EB8C /* D.wav */; };
+		691B810128805B2700D6EB8C /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 691B80FA28805B2700D6EB8C /* C.wav */; };
+		691B810228805B2700D6EB8C /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 691B80FB28805B2700D6EB8C /* F.wav */; };
+		691B810328805B2700D6EB8C /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 691B80FC28805B2700D6EB8C /* A.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		691B80E728804EC400D6EB8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		691B80EA28804EC400D6EB8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		691B80EC28804EC400D6EB8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		691B80F628805B2700D6EB8C /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		691B80F728805B2700D6EB8C /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		691B80F828805B2700D6EB8C /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		691B80F928805B2700D6EB8C /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		691B80FA28805B2700D6EB8C /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		691B80FB28805B2700D6EB8C /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		691B80FC28805B2700D6EB8C /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,7 @@
 		691B80CF28804EC200D6EB8C = {
 			isa = PBXGroup;
 			children = (
+				691B810428805B3900D6EB8C /* Sounds */,
 				691B80DA28804EC200D6EB8C /* XylophoneApp */,
 				691B80D928804EC200D6EB8C /* Products */,
 			);
@@ -68,6 +83,20 @@
 				691B80E428804EC200D6EB8C /* XylophoneApp.xcdatamodeld */,
 			);
 			path = XylophoneApp;
+			sourceTree = "<group>";
+		};
+		691B810428805B3900D6EB8C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				691B80FC28805B2700D6EB8C /* A.wav */,
+				691B80F728805B2700D6EB8C /* B.wav */,
+				691B80FA28805B2700D6EB8C /* C.wav */,
+				691B80F928805B2700D6EB8C /* D.wav */,
+				691B80F628805B2700D6EB8C /* E.wav */,
+				691B80F828805B2700D6EB8C /* G.wav */,
+				691B80FB28805B2700D6EB8C /* F.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +157,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				691B80FD28805B2700D6EB8C /* E.wav in Resources */,
+				691B80FE28805B2700D6EB8C /* B.wav in Resources */,
+				691B80FF28805B2700D6EB8C /* G.wav in Resources */,
+				691B810028805B2700D6EB8C /* D.wav in Resources */,
+				691B810128805B2700D6EB8C /* C.wav in Resources */,
+				691B810228805B2700D6EB8C /* F.wav in Resources */,
+				691B810328805B2700D6EB8C /* A.wav in Resources */,
 				691B80EB28804EC400D6EB8C /* LaunchScreen.storyboard in Resources */,
 				691B80E828804EC400D6EB8C /* Assets.xcassets in Resources */,
 				691B80E328804EC200D6EB8C /* Main.storyboard in Resources */,
@@ -297,6 +333,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,7 +345,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,6 +362,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +374,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
